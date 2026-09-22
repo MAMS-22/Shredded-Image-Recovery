@@ -1,0 +1,27 @@
+# Virtual environment
+venv/
+env/
+ENV/
+.env
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Large training datasets & arrays (>100MB GitHub limit)
+COCO_dataset/
+COCO dataset/
+project/image_dataset/
+
+# Runtime demo/upload artifacts
+demo/
+new.weights.h5
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
